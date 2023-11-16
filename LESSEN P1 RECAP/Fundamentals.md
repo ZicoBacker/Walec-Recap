@@ -2,7 +2,6 @@
 ### wat is data?
  **Data is niks ander dan informatie die je computer heeft. voor een computer bestaat alles uit 1 en 0.** Slimme mensen hebben toen programmeer talen bedacht. Hierdoor kunnen wij praten tegen de computer met code. Er zijn verschillende vormen van data, Dit noemen wij data types.
 ### Data types
-#CrashCourse 
 Voor alle data types geld het volgende: Als een data type meer kan, kost het je computer ook meer kracht.
 
 - **Integers(INT):** zijn getallen. Het maximale getal dat een INT kan hebben is: 2,147,483,647
@@ -13,12 +12,8 @@ Voor alle data types geld het volgende: Als een data type meer kan, kost het je 
 - **Float:** gebruik je voor comma getalen( die niet heel groot zijn). 
 - **EXTRA: numbers:** zijn basically doubles, maar alleen javascript gebruikt het voor alle getallen.
 
- [[Basisprogrammeren#Leren programmeren|Volgende deel voor de absolute basis]]
-
-
 ## 2. Naming conventions
 ### Wat is een naming convention
-#CrashCourse 
 **naming conventions zijn door de industrie aangemaakt als een standaard van hoe je alles een naam moet geven.** Het is bedoeld zodat je meteen snapt waar je naar kijkt als je het tegen komt. Elke taal heeft zijn eigen naming convention en soms kunnen bedrijven ook nog zelf een eigen naming convention hebben. Het is belangrijk dat je de naming conventions van je omgeving gebruikt.
 
 **JavaScript gebruikt camelCasing.**

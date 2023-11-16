@@ -5,7 +5,6 @@ Het is ontzettend lastig voor veel mensen om te leren programmeren. Een computer
 De meeste regels/structuur van code is overal bijna hetzelfde, maar net een beetje anders.
 
 ### Order of execution
-#CrashCourse
 **De manier waarop code wordt gelezen is van boven naar beneden.** Hij doet eerst wat je zegt op regel 1, dan op regel 2 ect ect.. maar hierin hebben wij een paar belangrijke punten:
 #### ; (semicolon of puntkomma)
 deze gebruiken we om een taak te eindigen. bijvoorbeeld `console.log("hello world");` Als je dit niet doet kan je in sommige programmeer talen een error krijgen dus **maak hier een gewoonte van in javascript**

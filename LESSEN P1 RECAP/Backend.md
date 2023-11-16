@@ -1,5 +1,5 @@
 # PHP
-## hoe gebruik ik PHP?
+## hoe gebruik ik PHP? 
 om PHP te gebruiken moeten we eerst [[Installeren#WAMP|WAMP]] geïnstalleerd hebben. Zodra je WAMP geïnstalleerd hebben maak je een `index.php`. In de `index.php` begin je met een basis HTML pagina en moet je `<?php` doen  om te beginnen met PHP scripts. Dit ziet er zo uit.
 ```PHP
 <!DOCTYPE html>
