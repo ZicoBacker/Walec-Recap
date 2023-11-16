@@ -21,4 +21,4 @@ Git zijn installatie is ook niet Lastig. je gaat [naar de website](https://git-s
 Verdere uitleg : [[Unity Hub]] 
 
 ## Docker
-Ga naar [docker](https://www.docker.com/products/docker-desktop/) en download Docker Desktop. Maak ook meteen een account aan.
+Ga naar [docker](https://www.docker.com/products/docker-desktop/) en download Docker Desktop. Maak ook meteen een account aan. en log in op de applicatie wanneer je klaar bent.
