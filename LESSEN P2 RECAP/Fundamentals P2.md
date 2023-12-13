@@ -34,3 +34,15 @@ Deze stap is alleen voor het geval dat je in detail moet kijken wat je nou eigen
 Druk op de "Resolve in Merge Editor" knop.  
 Kies hier de veranderingen die je wilt en kijk in het onderste "Result" venster of het resultaat is wat je wilt. In dit venster mag je ook typen voor verdere aanpassingen.
 ![[Pasted image 20231115111140.png]]
+# How to make an associative array in javascript
+To make arrays in javascript we use `let array = [30, 234, 34, 5, 65]`
+To make an associative array we have to use `{}` instead. 
+For example `let array = {"fries":20, "mom":10, "dad": 45}`. This is a associative array.
+# Quick note how to use forEach in JS
+To use `.foreach` you will first have to have an array. Otherwise this function can not be used. To me it kinda has a weird ass syntax but it is as follows:
+```js
+array.foreach((value, index) =>{
+	script that does smth
+});
+```
+ The value and index are switched around here to keep you on your feet.

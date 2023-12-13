@@ -19,3 +19,27 @@ dit hebben we eerder gehad, dit zegt in de console `Hello World` met de twee waa
 `return` is een commando dat het script stopt en de functie geeft terug wat je returned. Dit kan je in veel verschillende wegen gebruiken maar daar komen we nog op.
 
 Dit is zo uitgebreid simpel dat functies bestaan.
+
+# For each javascript
+The **`forEach()`** method of [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instances executes a provided function once for each array element.
+```js
+const array1 = ['a', 'b', 'c'];
+array1.forEach((element) => console.log(element));
+```
+
+```js
+// Add to the start of an array
+Array.unshift(element);
+
+// Add to the end of an array
+Array.push(element);
+
+// Add to a specified location
+Array.splice(start_position, 0, new_element...);
+
+// Add with concat method without mutating original array
+let newArray = [].concat(Array, element);
+
+```
+
+
