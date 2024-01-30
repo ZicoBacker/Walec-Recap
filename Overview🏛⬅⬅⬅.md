@@ -4,7 +4,7 @@
 - [[Installeren#SQL Workbench|SQL Workbench]] is een soort van visual studio code voor je database. 
 - [[Installeren#Git|Git]] gebruiken we om projecten op te slaan en opdrachten in te leveren.
 - [[Installeren#Unity Hub|Unity Hub]] gebruiken we voor het maken van onze games. 
-- [[Installeren#Docker|Docker]] is nodig voor IT voor deze periode.
+- [[Installeren#Docker|Docker]] is nodig voor IT in periode 2.
 - [[sass|SASS]] is een CSS compiler, dit gebruiken we in frontend.
 
 
@@ -15,13 +15,19 @@
 - [[Frontend]]
 - [[Backend]]
 - [[Database]]
-- [[IT]]
-
-## Lessen Periode 2
+- [[IT|IT: Windows Powershell]]
+## Lessen Periode 2✔
 - [[Basispogrammeren P2|Basisprogrammeren]]
 - [[Fundamentals P2|Fundamentals]]
 - [[Frontend P2||Frontend]]
 - [[Backend P2|Backend]]
 - [[Database p2|Database]]
-- [[IT P2|IT]]
-- [[Basis Programmeren Voor Games]]
+- [[IT P2|IT: Docker]]
+- [[Basis Programmeren Voor Games|Basisprogrammeren voor games: Thema 1 en 2]]
+## Lessen Periode 3
+- [[FUN P3|Fundamentals]]
+- [[Frontend P3|Frontend]]
+- [[Backend P3|Backend]]
+- [[Database p3|Database]]
+- [[IT P3|IT: Networking]]
+- [[BPVG P3|Basisprogrammeren voor games: Thema 3]]

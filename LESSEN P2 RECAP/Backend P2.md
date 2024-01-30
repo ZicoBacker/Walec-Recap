@@ -46,6 +46,7 @@ je zegt hier het volgende:
 - nu laten wij op de website `$persoon1->voonaam` zien, dit is `'Danny'`.
 
 De rest is aids en snap ik ook niet.
+# CRUD
 In backend zijn we aan de slag gegaan met het gebruiken van een database in PHP. Wij maken een database aan via phpmyadmin of mysql, wat wij gebruiken bij database. Ik ga hier de uitleg geven voor hoe je het doet met mySQL maar het werkt bijna hetzelfde met phpmyadmin. We maken een connectie tussen een database en de php website.
 
 ### Maken van de database

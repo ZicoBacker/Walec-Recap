@@ -34,6 +34,51 @@ Deze stap is alleen voor het geval dat je in detail moet kijken wat je nou eigen
 Druk op de "Resolve in Merge Editor" knop.  
 Kies hier de veranderingen die je wilt en kijk in het onderste "Result" venster of het resultaat is wat je wilt. In dit venster mag je ook typen voor verdere aanpassingen.
 ![[Pasted image 20231115111140.png]]
+# if/if-else statements
+## if
+If else statements zijn de basis van JavaScript. Hierbij doet hij alleen iets **ALS** de condities correct zijn. Een voorbeeld:
+```js
+let color = "red"
+if (color === "red") {
+	console.log("Sign is red")
+	}
+```
+de `===` betekend dat het dezelfde waarde moet hebben en dezelfde soort variable(int, string, ect)
+## Else
+Als je alle andere opties ook iets wil laten doen, kan je else gebruiken.
+```js
+let color = "red"
+if (color === "red") {
+	console.log("Sign is red")
+	}
+else {
+	console.log("Sign is not red")
+}
+```
+## else if
+Ook heb je nog `else if`. Dit gebruik je wanneer je een paar specifieke antwoorden iets anders wil laten doen, dit zal gebeuren voor de `else`:
+```js
+let color = "red"
+if (color === "red") {
+	console.log("Sign is red")
+	}
+else if (color === "green") {
+	console.log("Sign is green")
+}
+else {
+	console.log("Sign is not red")
+}
+```
+# For loops
+For loops draaien onder een specifieke conditie.
+```js
+for(let i = 0; i <5; i++) 
+{
+	console.log("test")
+}
+```
+dit zal 4x `test` sturen. Het stuurt hem niet 5x omdat wanneer hij bij 5 is het **NIET ONDER** 5 is, en dat is de conditie voor de loop. Als jij hem 5x wil laten draaien verander jij hem naar
+`let i=0; i != 5; i++;`. 
 # How to make an associative array in javascript
 To make arrays in javascript we use `let array = [30, 234, 34, 5, 65]`
 To make an associative array we have to use `{}` instead. 

@@ -43,3 +43,29 @@ let newArray = [].concat(Array, element);
 ```
 
 
+
+
+# Javascript in HTML
+## Elementen aanpassen
+Met javascript kan je elementen en tekst in HTML aanpassen. Dit kan je doen door gebruik te maken van `document.getElementById()`. Hiermee kan je een variabele koppelen aan het element in de HTML. Voorbeeld:
+```js
+let Text1 = document.getElementById("text1") 
+```
+Dit zegt dus dat de variabel `Text1` in javascript hetzelfde is als het element met het id `text1` is in HTML.
+
+Nu kunnen wij het element aanpassen via de javascript. Om dit te doen als voorbeeld kan je het aanspreken als een [[Backend P2#classes|Object]]. Voor tekst doen wij dat via `Text1.InnerHTML("Hello World")`. Dit stukje text zegt dat de `InnerHTML` van `Text1` : `"Hello World"` moet zijn.
+
+Je kan ook de CSS aanpassen via JavaScript. We doen dit hier door `Text1.style.<style>` te doen. wij kunnen alles eraan toevoegen, Maar dit wordt wel inline en niet external. Een voorbeeld is
+```js
+Text1.style.color = "green"
+```
+## Events
+Een event is eigenlijk wanneer er wat gebeurd in de html. Denk dan aan `onclick`, `onmouseover`,`onmouseout`, ect. Hieraan kan je een functie hangen die uitgevoerd wordt wanneer een Event gebeurd. Wij kunnen dit op twee manieren doen:
+`<button onlick="Myfunction()">Hello!</button>`. Wij doen dit in de HTML en `Myfunction()` is een referentie naar de de `Myfunction()` in JavaScript.
+
+De tweede manier is om het in de JavaScript te doen. Een voorbeeld is:
+```js
+button = document.GetElementById("button1");
+button.addEventListener("click", myFunction);
+```
+Dit stukje wacht totdat de knop geklikt wordt en zal daarna `myFunction` uitvoeren.

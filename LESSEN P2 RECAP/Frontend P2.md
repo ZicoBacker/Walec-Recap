@@ -148,3 +148,82 @@ The final piece of code we add is the most important for everything to work:
       }
 ```
 This code is difficult for me to explain but this code will give you grid styling for screen sizes and how much of that screen it will take up.
+# position utility classes
+
+## Utility classes
+Moeilijke woorden voor een fantastisch concept. In veel websites moet je heel vaak dezelfde properties aanpassen voor veel verschillende elementen. Stel je eens voor dat je op een webpagina een stuk of 50 elementen hebt staan en bij de helft van de elementen moet je de property display veranderen naar flex. Dat zijn 25 regels aan styling.
+
+Wat nou, als 1 class selector aan maakt ".flex" en daar de property display verandert naar flex. Dan moet je deze klasse wel toepassen op de HTML elementen, maar dit zorgt niet voor extra regels. In je CSS bestand heb je maar 3 regels nodig, in plaats van 25.
+## Position property 
+Ook ga je nu kennis maken met de property position. Deze property moet voorzichtig gebruikt worden! Het kan namelijk heel makkelijk je complete pagina ontwerp kapot maken. Daarom kan je de position property alleen in bepaalde gevallen echt goed gebruiken. En zal je voor de rest gebruik moeten maken van de flexbox methode die je in de vorige opdrachten hebt behandeld.
+## syntax
+```scss
+&.fixed{
+      position: fixed;
+   }
+   
+   &.sticky{
+      position: sticky;
+   }
+   
+   &.absolute{
+      position: absolute;
+   }
+```
+# Flex option utility classes
+
+## Flex options. 
+je hebt al kennis gemaakt met flexbox en de properties justify-content en align-items. Deze twee properties kunnen goed ingezet worden om elementen te positioneren. Nu zijn er in deze opdracht al een aantal elementen die gebruik kunnen maken van deze twee properties. We kunnen het navigatie-menu aanpassen en de items anders positioneren. En we kunnen de tekst in de banner in verschillende hoeken plaatsen.
+
+Daarom kan je nu dus ook flex-option-utility-classes gaan toevoegen. Hiermee kan je straks verschillende pagina's anders indelen door alleen wat andere classes toe te voegen aan elementen!
+## info
+Het nieuwe dat we hier leren is `!important`. dit zorgt ervoor dat dit altijd het element zal aanpassen, ook al heeft een andere selector normaal voorrang. dit doe je tussen de waarde en `;`. **Justify-content wordt gebruikt voor horizontale postionering, align items is voor verticale postioning.**
+## Syntax
+```scss
+.jc-center{
+  justify-content: center;
+}
+
+.jc-space-between{
+  justify-content: space-between !important;
+}
+
+.jc-flex-start{
+  justify-content: flex-start !important;
+}
+
+.jc-flex-end{
+  justify-content: flex-end !important;  
+}
+
+/*
+
+ * @TODO: Add align-items utility classes.
+
+ */
+.ai-center{
+  align-items: center !important;
+}
+
+.ai-flex-start{
+  align-items: flex-start !important;
+}
+
+.ai-flex-end{
+  align-items: flex-end !important;
+}
+```
+# CSS position deep dive
+## position: static
+`Position: static` is the default (You don't really use it). 
+`top: ;` Does not do anything because of `Position: static`
+## position: relative
+`Position: relative;` Makes `top: ;` able to do something. we are visuall moving it and the original space is maintained. Used for overlapping. It also makes `z-index` work. It is not only used for positioning, but also for items inside of it becomes the contain block.
+### Z-index
+is used to layer elements properly. for example text is `1` and img is `2` so the text is over the background.
+## position: absolute
+when we use position absolute we pull out of the flow. The other elements will pretend its's not there. It will base `top` `right` `left` and `bottom` be based on the viewport or contain block before scrolling. avoid it unless you really need it. Only if we need a specific element in a specific place. With `postion: absolute;` it will wrap to the content. Every change of the element will be based on the parent or ancestor element. `z-index` still works.
+## position: fixed
+just like `position: absolute;` it will fit the content. To fix it give it `inset` or `with` and `length`.  The other content like `position: absolute;` will ignore it. `postion: fixed;` is fixed to the viewport. It is used for small things that will never move and locked while scrolling.
+## position: sticky
+`Sticky` will be seen by other elements. it will be the same as normal until it sticks to the viewport. When you add `inset` it will say how far from the viewport it will stick. When using a `display:flex;` `align-item: stretch` it will go all the way down to the bottom. It can't scroll down because it could be too big. possible solution `align-self: start;`.
