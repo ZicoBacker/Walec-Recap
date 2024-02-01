@@ -19,7 +19,7 @@
 ## Lessen Periode 2✔
 - [[Basispogrammeren P2|Basisprogrammeren]]
 - [[Fundamentals P2|Fundamentals]]
-- [[Frontend P2||Frontend]]
+- [[Frontend P2|Frontend]]
 - [[Backend P2|Backend]]
 - [[Database p2|Database]]
 - [[IT P2|IT: Docker]]
@@ -31,3 +31,5 @@
 - [[Database p3|Database]]
 - [[IT P3|IT: Networking]]
 - [[BPVG P3|Basisprogrammeren voor games: Thema 3]]
+- [[SYSO]]
+

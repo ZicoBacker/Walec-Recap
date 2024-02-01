@@ -5,14 +5,14 @@ om PHP te gebruiken moeten we eerst [[Installeren#WAMP|WAMP]] geïnstalleerd heb
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHPBasics</title>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PHPBasics</title>
 </head>
 <body>
-    <?php
-
-     ?>
+	<?php
+	
+	?>
 </body>
 </html>
 ```
@@ -111,51 +111,51 @@ Nested arrays betekend eigenlijk niks anders dan een array in een array. Hier he
 ```php
 <?php
 $personen = array(array("firstname" => "Arjan",
-                        "infix" => "de",
-                        "lastname" => "Ruijter",
-                        "address" => "Prins Hendrikstraat",
-                        "addressnumber" => 17,
-                        "zipcode" => "1901CB"),
-                                    
-                  array("firstname" => "Bert",
-                        "infix" => "van der",
-                        "lastname" => "Steeg",
-                        "address" => "Willem de Zwijgerlaan",
-                        "addressnumber" => 253,
-                        "zipcode" => "1051XM"),
-                                    
-                  array("firstname" => "Mohammed",
-                        "infix" => "El",
-                        "lastname" => "Yassidi",
-                        "address" => "Admiraal de Ruijterweg",
-                        "addressnumber" => 68,
-                        "zipcode" => "1067RC"));
+						"infix" => "de",
+						"lastname" => "Ruijter",
+						"address" => "Prins Hendrikstraat",
+						"addressnumber" => 17,
+						"zipcode" => "1901CB"),
+						
+					array("firstname" => "Bert",
+						"infix" => "van der",
+						"lastname" => "Steeg",
+						"address" => "Willem de Zwijgerlaan",
+						"addressnumber" => 253,
+						"zipcode" => "1051XM"),
+						
+					array("firstname" => "Mohammed",
+						"infix" => "El",
+						"lastname" => "Yassidi",
+						"address" => "Admiraal de Ruijterweg",
+						"addressnumber" => 68,
+						"zipcode" => "1067RC"));
 ?>
 ```
 in deze Nested array maken wij ook gebruik van wat we geleerd hebben in [[Backend#Arrays Expanded(|arrays Expanded]]. Het ziet er ongeveer zo uit voor de computer:
 ```php
 <?php
 $personen = array(
-		  getal1=>array("firstname" => "Arjan",
-                        "infix" => "de",
-                        "lastname" => "Ruijter",
-                        "address" => "Prins Hendrikstraat",
-                        "addressnumber" => 17,
-                        "zipcode" => "1901CB"),
-                                    
-          getal2=>array("firstname" => "Bert",
-                        "infix" => "van der",
-                        "lastname" => "Steeg",
-                        "address" => "Willem de Zwijgerlaan",
-                        "addressnumber" => 253,
-                        "zipcode" => "1051XM"),
-                                    
-          getal3=>array("firstname" => "Mohammed",
-                        "infix" => "El",
-                        "lastname" => "Yassidi",
-                        "address" => "Admiraal de Ruijterweg",
-                        "addressnumber" => 68,
-                        "zipcode" => "1067RC"));
+				getal1=>array("firstname" => "Arjan",
+				  "infix" => "de",
+				  "lastname" => "Ruijter",
+				  "address" => "Prins Hendrikstraat",
+				  "addressnumber" => 17,
+				  "zipcode" => "1901CB"),
+				                          
+				getal2=>array("firstname" => "Bert",
+					"infix" => "van der",
+					"lastname" => "Steeg",
+					"address" => "Willem de Zwijgerlaan",
+					"addressnumber" => 253,
+					"zipcode" => "1051XM"),
+					
+				getal3=>array("firstname" => "Mohammed",
+					"infix" => "El",
+					"lastname" => "Yassidi",
+					"address" => "Admiraal de Ruijterweg",
+					"addressnumber" => 68,
+					"zipcode" => "1067RC"));
 ?>
 ```
 
@@ -192,18 +192,15 @@ ElseIf is een verdieping op [[Backend#If/Else|If Else]] van een stukje terug. He
 ```php
 <?php
 $userrole = 'moderator';
-    if ($userrole == 'administrator') {
-        echo "Welkom terug administrator<br>";
-        
-    } elseif ($userrole == 'customer') {
-        echo "Welkom terug customer<br>";
-    
-    } elseif ($userrole == 'moderator') {
-        echo "Welkom terug moderator<br>";
-    
+	if ($userrole == 'administrator') {
+	    echo "Welkom terug administrator<br>";
+	} elseif ($userrole == 'customer') {
+	    echo "Welkom terug customer<br>";
+	} elseif ($userrole == 'moderator') {
+		echo "Welkom terug moderator<br>";
     } else {
-        echo "Welkom terug<br>";
-    }
+		echo "Welkom terug<br>";
+	}
 ?>
 ```
 Wat hier gebeurt is redelijk simpel

@@ -1,6 +1,6 @@
 # HTML
 HTML staat voor HyperText Markup Language. HTML wordt gebruikt om een browser te vertellen wat er op de pagina komt te staan. eigenlijk is het geen programmeer taal maar een Markdown Language( opmaak taal.)
-## elementen
+## Elementen
 In HTML werken wij met elementen. Elk element doet wat anders of ziet er anders uit. Meeste element tag start je met `<` en sluit je met `>`. een "closing tag" kan je herkennen aan `/`. je moet een starting en closing tag hebben voor de meeste elementen. Sommige elementen hebben geen closing tag nodig. 
 ## HTML attributes
 Attributes is alles tussen de `< >` dat niet een element is. een voorbeeld:
